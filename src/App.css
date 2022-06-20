@@ -7,8 +7,8 @@
 .Cabeçario{
   background-image:url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:e048e30a-811b-49f2-a92f-1af9a2985abd;revision=0?component_id=8444393a-5d93-4997-8ad0-0d450a8011e0&api_key=CometServer1&access_token=1655802322_urn%3Aaaid%3Asc%3AUS%3Ae048e30a-811b-49f2-a92f-1af9a2985abd%3Bpublic_002815fc6cc23418ab69f4ba32f51b1059f48863")
   ;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
-  background-size:100vw;
   height:100vh;
   margin:1rem;
 }
@@ -30,7 +30,7 @@
   justify-content:space-between;
   flex-direction:row ;
   color:#373737;
-  font-size:2rem;
+  font-size:1rem;
 }
 h1{
   height:85%;
@@ -41,4 +41,46 @@ h1{
   align-items: center;
   justify-content: center;
 
+}
+.S1{
+  background-color: #F2F4F1;
+}
+.ContainerH2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+.Borda{
+  width: 3rem;
+  border-bottom: #373737 solid;
+  margin-top: 0.8rem;
+}
+.ContainerFood img{
+  width: 22rem;
+  height: 15rem;
+}
+.ContainerFood{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ItemFood{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContainerText{
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+}
+.TitleImage{
+  padding-top: 1rem;
 }
