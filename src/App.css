@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Cabeçario{
+  background-image:url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:e048e30a-811b-49f2-a92f-1af9a2985abd;revision=0?component_id=8444393a-5d93-4997-8ad0-0d450a8011e0&api_key=CometServer1&access_token=1655802322_urn%3Aaaid%3Asc%3AUS%3Ae048e30a-811b-49f2-a92f-1af9a2985abd%3Bpublic_002815fc6cc23418ab69f4ba32f51b1059f48863")
+  ;
+  background-repeat: no-repeat;
+  background-size:100vw;
+  height:100vh;
+  margin:1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.T2Header{
+  color:#373737;
+  font-size:3rem;  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Menu{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  padding:1rem;
+}
+.itemsHeader{
+  width:30vw;
+  padding:1rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction:row ;
+  color:#373737;
+  font-size:2rem;
+}
+h1{
+  height:85%;
+  font-weight: 500;
+  color:#373737;
+  font-size:150px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
